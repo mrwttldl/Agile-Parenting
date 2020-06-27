@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_boards"
+            android:icon="@drawable/ic_boards"
+            android:title="Boardlar" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="Profil" />
+
+        <item
+            android:id="@+id/nav_fibonacci"
+            android:icon="@drawable/ic_fibonacci"
+            android:title="Fibonacci Poker Sprint" />
+
+        <item
+            android:id="@+id/nav_takvim"
+            android:icon="@drawable/ic_calendar"
+            android:title="Takvim" />
+
+        <item
+            android:id="@+id/nav_notes"
+            android:icon="@drawable/ic_notes"
+            android:title="Notlarım" />
+        <item
+            android:id="@+id/nav_graph"
+            android:icon="@drawable/ic_graph"
+            android:title="Grafik" />
+
+    </group>
+
+    <item android:title="Ayarlar">
+        <menu>
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/ic_exit"
+                android:title="Çıkış" />
+        </menu>
+    </item>
+</menu>

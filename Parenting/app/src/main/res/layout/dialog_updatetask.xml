@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:padding="16dp">
+
+
+    <EditText
+        android:id="@+id/editText_updateTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="İş tanımı" />
+
+    <EditText
+        android:id="@+id/editText_updateLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText_updateTask"
+        android:layout_alignParentStart="true"
+        android:hint="Başlık" />
+
+    <EditText
+        android:id="@+id/editText_updatePoint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_below="@id/editText_updateLocation"
+        android:layout_alignParentStart="true"
+        android:hint="Puanı" />
+
+    <Spinner
+        android:id="@+id/updateSpinnerInterval"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText_updatePoint"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/editText_updateNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/updateSpinnerInterval"
+        android:layout_alignParentStart="true"
+        android:hint="Not:" />
+
+    <Spinner
+        android:id="@+id/updateSpinnerMembers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText_updateNote"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

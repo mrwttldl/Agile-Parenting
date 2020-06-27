@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/action_addUser"
+        android:title="Kullanıcı Ekle"/>
+    <item
+        android:id="@+id/action_settings"
+        android:title="Ayarlar"/>
+
+    <item
+        android:id="@+id/action_boardDelete"
+        android:title="Odayı Sil"/>
+
+    <item android:id="@+id/action_jobPool"
+        android:title="Job Pool"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_sort_white_foreground"/>
+
+</menu>
